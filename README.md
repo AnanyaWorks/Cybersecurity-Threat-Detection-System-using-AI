@@ -37,17 +37,11 @@ API Deployment: Accepts JSON input and returns prediction (True = Threat, False 
 
 🔧 Setup Instructions:
 1. Clone the Repository
-2. Install Dependencies
-bash
-Copy
-Edit
+2. Install Dependencies:
 pip install pandas numpy scikit-learn flask joblib
-3. Run the Flask API
-bash
-Copy
-Edit
+3. Run the Flask API:
 python app.py
-4. Test Using Postman or Python
+4. Test Using Postman or Python:
 Send a POST request to http://127.0.0.1:5000/predict with JSON
 Expected response:
 {
